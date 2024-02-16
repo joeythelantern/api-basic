@@ -26,6 +26,9 @@ export const Main = () => {
     logging.log('----------------------------------------');
     logging.log('Define Controller Routing');
     logging.log('----------------------------------------');
+    application.get('/main/healthcheck', (req, res, next) => {
+        return res.status(200).json({ hello: 'world!' });
+    });
 
     logging.log('----------------------------------------');
     logging.log('Define Routing Error');
