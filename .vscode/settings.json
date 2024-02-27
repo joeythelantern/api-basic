@@ -2,5 +2,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.bracketPairColorization.enabled": true,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "rest-client.environmentVariables": {
+        "local": {
+            "API_HOST": "http://localhost:1337"
+        }
+    }
 }
