@@ -1,0 +1,5 @@
+### Options
+OPTIONS {{API_HOST}}
+
+### Healthcheck
+GET {{API_HOST}}/main/healthcheck
