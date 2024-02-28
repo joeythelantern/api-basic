@@ -1,5 +1,5 @@
 ### Options
-OPTIONS localhost:1337
+OPTIONS http://localhost:1337
 
 ### Healthcheck
-GET localhost:1337/main/healthcheck
+GET http://localhost:1337/main/healthcheck
