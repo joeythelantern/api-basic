@@ -1,5 +1,5 @@
 ### Options
-OPTIONS {{API_HOST}}
+OPTIONS localhost:1337
 
 ### Healthcheck
-GET {{API_HOST}}/main/healthcheck
+GET localhost:1337/main/healthcheck
