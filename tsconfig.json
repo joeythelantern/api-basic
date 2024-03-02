@@ -8,7 +8,7 @@
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "skipLibCheck": true,
-        "types": ["jest", "reflect-metadata"],
+        "types": ["jest"],
         "moduleResolution": "Node16",
         "module": "Node16"
     },
